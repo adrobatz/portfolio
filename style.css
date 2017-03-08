@@ -1,0 +1,194 @@
+/*main css*/
+min-html {
+	height: 100%;
+	position: relative;
+}
+body {
+	height: 100%;
+	background-color: #FCFCFC;
+}
+h1 {
+	font-family: 'Lato', sans-serif;
+	color: #5D737E;
+
+}
+h2 {
+	font-family: 'Lato', sans-serif;
+	color: #5D737E;
+}
+h3 {
+	font-family: 'Lato', sans-serif;
+	color: #5D737E;
+}
+p {
+	font-family: 'Cormorant Garamond', serif;
+	color: #000000;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	color: #01BAEF;
+}
+/*navigation css*/
+.bar {
+	width: 5px;
+	height: 100%;
+	background-color: black;
+	margin: 0 auto;
+	position: absolute;
+	top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    border: none;
+    padding: 0;
+}
+.secondaryBar {
+	width: 100%;
+	height: 5px;
+	background-color: black;
+	margin: 0 auto;
+	position: absolute;
+	top:5px;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    border: none;
+    padding: 0;
+}
+.hidden {
+	display: none;
+}
+.bar:hover {
+	background-color:  #01BAEF;
+}
+.secondaryBar:hover {
+	background-color: #01BAEF;	
+}
+.title {
+	width: 50%;
+	float: left;
+}
+.left {
+	text-align: right;
+	padding-right: 5px;
+	padding-top: 35%;
+
+}
+.right {
+	padding-left: 5px;
+	padding-top: 40%;
+}
+#mainNavOpen {
+	width: 100%;
+	height: auto;
+	background-color: #5D737E;
+	margin: 0 auto;
+    overflow:hidden;
+    border: none;
+    padding: 0;
+    z-index: 3;
+    position: absolute;
+}
+ul {
+	list-style: none;
+	text-align: center;
+	}
+li {
+	font-family: 'Lato', sans-serif;
+	color: black;
+	font-size: 36px;
+	line-height: 2em;
+	font-variant: small-caps;
+	letter-spacing: .15em;
+}
+.social li {
+	display: inline-block;
+	padding: .5%;
+}
+.social img {
+	width: 50px; 
+}
+/*navigation css end*/
+/*projects page css*/
+#container {
+	width: 95%;
+	margin: 3%;
+}
+.marketingEmailSection {
+	width: 100%;
+}
+.marketingEmail {
+	float: left;
+	clear: right;
+	width: 15%;
+	display: block;
+	padding: .5%;
+	margin-top: 15px;
+}
+.marketingPage {
+	width: 90%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.eventEmailImages {
+	float: left;
+	clear: right;
+	width: 17%;
+	display: block;
+	padding: 1%;
+}
+.triggerEmailImages {
+	float: left;
+	clear: right;
+	width: 17%;
+	display: block;
+	padding: 2%;
+}
+.contactText {
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	text-align: left
+}
+/*project page css end*/
+/*contact page css*/
+.contact {
+	margin: 2%;
+}
+.contactContainer {
+	padding: 10%;
+    width: 80%;
+    text-align: center;
+    z-index: 0;
+   	position: relative;
+}
+input[type=submit] {
+	background-color: #5D737E;
+	width: 75px;
+	height: 40px;
+	font-family:'Lato', sans-serif;
+	font-size: 1em;
+	border:0 none;
+    cursor:pointer;
+    color: #FCFCFC; 
+}
+input[type=submit]:hover {
+	color: #01BAEF;
+}
+/*contact page css end*/
+/* 404 page css*/
+.errorMessage {
+	text-align: center;
+	margin-top: 20%;
+}
+.errorMessage a {
+	color: #5D737E;
+}
+.errorMessage a:hover {
+	color: #01BAEF;
+}
